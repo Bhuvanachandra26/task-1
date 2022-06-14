@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: scripts
         run: |
           docker build -t hello_world_app .
           docker login -u bhuvana426 -p 033449ec-f508-4372-9155-b1dbcce0ced1
