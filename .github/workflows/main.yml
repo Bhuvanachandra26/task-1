@@ -36,3 +36,6 @@ jobs:
           docker login -u bhuvana426 -p 033449ec-f508-4372-9155-b1dbcce0ced1
           docker tag hello_world_app bhuvana426/demo
           docker push bhuvana426/demo
+          docker build -t hello_world_app .
+          docker run -it -p 3000:3000 hello_world_app
+          
