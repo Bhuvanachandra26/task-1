@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 
 app.get('/', function(req,res){
-        res.send("Hello Technoforte-1");
+        res.send("Hello TF");
 });
 
 server.listen(3000, function(){
